@@ -1,9 +1,10 @@
-#include <iostream>
+using namespace std;
 
 int main()
 {
-    int x=3;
-    int y=3;
-    std::cout <<"z="<< x/y;
+    vector<int> v1{1,2,3};
+    vector<int> v2{4,5,6};
+    vector<vector<int>> v{v1,v2};
+    cout <<v1[1];
     return 0;
 }
